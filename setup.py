@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="redis-worker",
-    version="0.1.0",
+    name="redis-workers",
+    version="0.1.1",
     author="Onur Cetinkol",
     author_email="realiti44@gmail.com",
     description="A tool that simplifies Redis usage for repeating tasks",
@@ -18,6 +18,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.9',
-    packages=["redis_worker"],
+    packages=["redis_workers"],
     install_requires=["redis"],
 )
